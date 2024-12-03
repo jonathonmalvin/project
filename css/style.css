@@ -1,15 +1,17 @@
-.container{
+.container {
     width: 1341px;
     margin: 0 auto;
 }
-.subtitle{
+
+.subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
     color: #289BDE;
     text-align: center;
 }
-.title{
+
+.title {
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
@@ -17,6 +19,7 @@
     text-align: center;
     margin-top: 4px;
 }
+
 /* ===============
 General CSS
 =============== */
@@ -62,7 +65,7 @@ p {
     line-height: 1;
 }
 
-p{
+p {
     color: var(--text-black);
     font-size: 20px;
     font-weight: 400;
@@ -70,14 +73,14 @@ p{
     letter-spacing: 0.2px;
 }
 
-.sub-heading{
+.sub-heading {
     color: var(--primary-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
 }
 
-.heading{
+.heading {
     color: var(--secondary-color);
     font-size: 40px;
     font-weight: 600;
@@ -88,29 +91,29 @@ p{
     background: var(--primary-color);
 }
 
-.bg-secondary{
+.bg-secondary {
     background-color: var(--secondary-color);
 }
 
-.text-white{
+.text-white {
     color: var(--white-color);
 }
 
-.text-primary{
+.text-primary {
     color: var(--primary-color);
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-bold{
+.text-bold {
     font-weight: 700;
 }
 
 
 /* Buttons */
-.btn{
+.btn {
     display: inline-block;
     color: var(--white-color);
     font-size: 20px;
@@ -121,7 +124,8 @@ p{
     border-radius: 8px;
     text-transform: capitalize;
 }
-.btn2{
+
+.btn2 {
     display: inline-block;
     color: var(--white-color);
     font-size: 16px;
@@ -134,23 +138,24 @@ p{
     font-weight: 600px;
 }
 
-.btn-hover:hover{
+.btn-hover:hover {
     background: var(--white-color);
     border-color: var(--white-color);
     color: var(--primary-color);
 }
 
-.btn-outline{
+.btn-outline {
     display: inline-block;
     background-color: var(--transparent-color);
     border-color: var(--white-color);
 }
 
-.btn-outline-hover:hover{
+.btn-outline-hover:hover {
     border-color: var(--primary-color);
     color: var(--primary-color);
 }
-.btn-outline-hover2:hover{
+
+.btn-outline-hover2:hover {
     border-color: var(--primary-color);
     color: var(--primary-color);
     background-color: transparent;
@@ -160,23 +165,28 @@ p{
 .m-auto {
     margin: 0 auto;
 }
-.mb-60{
+
+.mb-60 {
     margin-bottom: 60px;
 }
-.mb-130{
+
+.mb-130 {
     margin-bottom: 130px;
 }
-.h-100{
+
+.h-100 {
     height: 100vh;
 }
 
-.m-h-100{
+.m-h-100 {
     min-height: 100vh;
 }
-.w-50{
+
+.w-50 {
     width: 50%;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
 
@@ -190,7 +200,7 @@ p{
     flex-direction: column;
 }
 
-.row-reverse{
+.row-reverse {
     flex-direction: row-reverse;
 }
 
@@ -257,20 +267,23 @@ p{
 .col-12 {
     flex-grow: 12;
 }
+
 /* ====================Navbar start here========= */
-#navbar{
-    padding: 13px 0; 
+#navbar {
+    padding: 13px 0;
     width: 100%;
     top: 0;
     left: 0;
     position: absolute;
 }
-.nav_wrapper{
+
+.nav_wrapper {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
 }
- .menu ul .menu_item a{
+
+.menu ul .menu_item a {
     color: #fff;
     font-size: 16px;
     line-height: normal;
@@ -278,20 +291,25 @@ p{
     text-transform: capitalize;
     transition: all linear 0.3s;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     justify-content: center;
     column-gap: 30px;
 }
-.menu ul .menu_item a:hover{
-    color: #289BDE;;
+
+.menu ul .menu_item a:hover {
+    color: #289BDE;
+    ;
 }
-.nav_btn{
+
+.nav_btn {
     display: flex;
     column-gap: 18px;
     justify-content: end;
 }
-.nav_btn a{
+
+.nav_btn a {
     display: inline-block;
     padding: 9px 15px;
     font-size: 14px;
@@ -302,28 +320,33 @@ p{
     border-radius: 5px;
     transition: linear 0.3s;
 }
-.nav_btn a:last-child{
+
+.nav_btn a:last-child {
     padding: 9px 45px;
 }
-.nav_btn a:hover{
+
+.nav_btn a:hover {
     background-color: #289BDE;
     border: 1px solid #289BDE;
 }
+
 /* ====================Navbar end here=========== */
 
 /* ====================Banner start here========= */
-#banner{
+#banner {
     padding: 277px 0 350px 0;
     background-color: #071B27;
 }
-.banner_wrapper h4{
+
+.banner_wrapper h4 {
     color: #fff;
     font-size: 30px;
     font-weight: 500;
     line-height: normal;
     text-align: center;
 }
-.banner_wrapper h1{
+
+.banner_wrapper h1 {
     color: #fff;
     font-size: 70px;
     font-weight: 700;
@@ -332,13 +355,15 @@ p{
     max-width: 1117px;
     margin: 0 auto;
 }
-.banner_btn{
+
+.banner_btn {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     column-gap: 40px;
 }
-.banner_btn a{
+
+.banner_btn a {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 8px;
@@ -349,91 +374,105 @@ p{
     display: inline-block;
     transition: linear 0.3s;
 }
-.banner_btn a:hover{
+
+.banner_btn a:hover {
     background-color: #289BDE;
     border: 1px solid #289BDE;
 }
-.banner_emoji{
+
+.banner_emoji {
     position: relative;
 }
-.banner_emoji .banner_emoji_left{
+
+.banner_emoji .banner_emoji_left {
     position: absolute;
     width: 355px;
     left: -200px;
     top: -83px;
     transform: translateY(-100%);
 }
-.banner_emoji_rigt{
+
+.banner_emoji_rigt {
     position: absolute;
     width: 386px;
     top: -80px;
     right: -210px;
     transform: translateY(-100%);
 }
+
 /* ====================Banner end here========= */
 
 /* =================Banner card start here======== */
-.card_wrapper{
+.card_wrapper {
     display: flex;
     column-gap: 32px;
     justify-content: space-between;
     margin: 0 35px;
     margin-top: -188px;
 }
-.card_item1{
+
+.card_item1 {
     width: 343px;
     height: 432px;
     border-radius: 15px;
     overflow: hidden;
 }
-.card_item1 img{
-    object-fit: cover; 
+
+.card_item1 img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
- }
-.card_item2{
+}
+
+.card_item2 {
     width: 417px;
     position: relative;
 }
-.card_item_inner1{
+
+.card_item_inner1 {
     width: 234.386px;
     height: 281.263px;
     border-radius: 12px;
     margin-top: 50px;
     overflow: hidden;
 }
-.card_item_inner1 img{
-    object-fit: cover; 
+
+.card_item_inner1 img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.card_item_inner2{
+.card_item_inner2 {
     width: 299.493px;
     height: 140.632px;
     border-radius: 8px;
-    position: absolute; 
+    position: absolute;
     top: -19px;
     left: 117px;
     overflow: hidden;
 }
-.card_item_inner2 img{
-    object-fit: cover; 
+
+.card_item_inner2 img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
-.card_item3{
+
+.card_item3 {
     width: 445px;
     height: 385px;
     border-radius: 12px;
     margin-top: 47px;
     overflow: hidden;
 }
-.card_item3 img{
-    object-fit: cover; 
+
+.card_item3 img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
 /* =================Banner card end here========== */
 
 /* About us section */
@@ -502,22 +541,23 @@ p{
     font-weight: 700;
     color: #289BDE;
 }
+
 /* ===============
 What we offer CSS
 =============== */
-#what_we_offer{
+#what_we_offer {
     padding: 157px 0 156px;
 }
 
-#what_we_offer > div{
+#what_we_offer>div {
     row-gap: 60px;
 }
 
-#what_we_offer > div > div:last-child{
+#what_we_offer>div>div:last-child {
     column-gap: 40px;
 }
 
-.offer-item-container{
+.offer-item-container {
     border-radius: 8px;
     border: 1px solid var(--white-color);
     opacity: 0.8;
@@ -525,28 +565,32 @@ What we offer CSS
     padding: 40px;
 }
 
-.offer-item-container > img{
+.offer-item-container>img {
     width: 100%;
 }
-.offer-item-container .heading-wrapper{
+
+.offer-item-container .heading-wrapper {
     margin: 44px 0 24px;
     column-gap: 9px;
 }
-.offer-item-container .heading-wrapper img{
+
+.offer-item-container .heading-wrapper img {
     width: 42px;
     aspect-ratio: 1/1;
 }
-.offer-item-container h3{
+
+.offer-item-container h3 {
     color: var(--white-color);
     font-size: 30px;
     font-weight: 600;
     line-height: 1.3;
 }
-.offer-item-container ul{
+
+.offer-item-container ul {
     list-style-type: none;
 }
 
-.offer-item-container li{
+.offer-item-container li {
     color: #E6E6E6;
     font-size: 20px;
     line-height: 1.5;
@@ -554,30 +598,83 @@ What we offer CSS
     padding-left: 35px;
 }
 
-.offer-item-container li:not(:last-child){
+.offer-item-container li:not(:last-child) {
     margin-bottom: 24px;
 }
-.offer-item-container li span{
+
+.offer-item-container li span {
     color: var(--primary-color);
     font-weight: 700;
 }
 
-.offer-item-container li img{
+.offer-item-container li img {
     left: 0;
     top: 5px;
     position: absolute;
 }
 
+/* Our Testimonials section */
+#testimonials {
+    margin-top: 140px;
+}
 
+#testimonials .section-info {
+    max-width: 625px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
 
+#testimonials .section-info h3 {
+    color: #289BDE;
+    font-size: 20px;
+    font-weight: 500;
+}
 
+#testimonials .section-info .section-title {
+    color: #071B27;
+    font-size: 40px;
+    font-weight: 600;
+}
 
+#testimonials .section-info .section-description {
+    font-size: 20px;
+    color: #666;
+}
 
+.testimonials-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 24px;
+}
 
+.testimonials-wrapper .item {
+    width: 378.5px;
+    height: 220px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 20px 25px 39px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: justify;
+}
 
+.testimonials-wrapper .personal-info .name {
+    color: #071B27;
+    font-size: 18px;
+    font-weight: 500;
+}
 
+.testimonials-wrapper .item .comment {
+    color: #666;
+    line-height: 27px;
+}
 
-
-
-
-
+.testimonials-wrapper .personal-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
