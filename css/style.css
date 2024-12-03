@@ -679,6 +679,7 @@ What we offer CSS
 #testimonials {
     margin-top: 140px;
 }
+
 #testimonials .section-info {
     max-width: 625px;
     margin: 0 auto;
@@ -744,30 +745,37 @@ What we offer CSS
 /* ===============
 Join Us CSS
 =============== */
-#join_us{
+#join_us {
     padding: 144px 0 140px;
 }
-#join_us .container{
+
+#join_us .container {
     gap: 60px;
 }
-#join_us .heading + p{
+
+#join_us .heading+p {
     width: 670px;
 }
-#join_us .content-wrapper{
+
+#join_us .content-wrapper {
     column-gap: 13px;
 }
-#join_us .content-wrapper > div{
+
+#join_us .content-wrapper>div {
     width: 33%;
 }
-#join_us .heading-wrapper{
+
+#join_us .heading-wrapper {
     margin-bottom: 37px;
     column-gap: 9px;
 }
-#join_us .heading-wrapper img{
+
+#join_us .heading-wrapper img {
     width: 25px;
     height: 25px;
 }
-#join_us h3{
+
+#join_us h3 {
     color: var(--secondary-color);
     font-weight: 600;
     line-height: 1.3;
@@ -775,11 +783,12 @@ Join Us CSS
     letter-spacing: 0.26px;
     text-decoration-line: underline;
 }
-#join_us ul{
+
+#join_us ul {
     list-style-type: none;
 }
 
-#join_us li{
+#join_us li {
     color: var(--text-black);
     font-size: 17px;
     line-height: 1.5;
@@ -787,20 +796,263 @@ Join Us CSS
     padding-left: 35px;
 }
 
-#join_us li:not(:last-child){
+#join_us li:not(:last-child) {
     margin-bottom: 25px;
 }
-#join_us li span{
+
+#join_us li span {
     color: var(--secondary-color);
     font-weight: 500;
     margin-bottom: 9px;
 }
 
-#join_us li img{
+#join_us li img {
     left: 0;
     top: 5px;
     position: absolute;
 }
-#join_us .mockup_img img{
+
+#join_us .mockup_img img {
     width: 294px;
+}
+
+
+/* Contact section */
+#contact {
+    margin-top: 140px;
+}
+
+#contact .section-info {
+    max-width: 615px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact .section-info h3 {
+    color: #289BDE;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#contact .section-info .section-title {
+    color: #071B27;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#contact .section-info .section-description {
+    color: #666;
+    font-size: 20px;
+}
+
+.contact-wrapper {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-wrapper .wrapper-info {
+    max-width: 440px;
+}
+
+.contact-wrapper .wrapper-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+.contact-wrapper .wrapper-info .heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: #12141D;
+}
+
+.contact-wrapper .wrapper-info .description {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Inter";
+    margin-top: 22px;
+    margin-bottom: 29px;
+}
+
+.contact-wrapper .note {
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contact-wrapper .note span {
+    font-weight: 700;
+}
+
+.contact-wrapper .wrapper-form {
+    width: 500px;
+    height: 692px;
+    -webkit-box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.wrapper-form .heading {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 5px;
+}
+
+.wrapper-form form {
+    max-width: 425px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.wrapper-form label {
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.wrapper-form input {
+    width: 420px;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #c6c9c8;
+}
+
+.wrapper-form button {
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #289BDE;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Footer section */
+#footer {
+    background: #289BDE;
+    height: 735px;
+    padding: 75px 0;
+    margin-top: 140px;
+    position: relative;
+}
+
+#footer .section-info {
+    width: 850px;
+    height: 444px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+#footer .info-container {
+    max-width: 590px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer .info-container .section-description {
+    width: 544px;
+    margin: 0 auto;
+}
+
+#footer .section-title {
+    color: #071B27;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+#footer .section-info h3 {
+    color: #071B27;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+#footer .section-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 32px;
+    margin-top: 12px;
+}
+
+#footer .contact-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+#footer .contact-wrapper div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-wrapper div p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#footer .info-container button {
+    padding: 13px 28px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    background-color: #289BDE;
+    margin-top: 40px;
+}
+
+#footer .info-container button:hover {
+    cursor: pointer;
+}
+
+#footer .logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+#footer .privacy {
+    display: flex;
+    gap: 17px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .footer-info a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#footer .icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-background-image {
+    position: absolute;
+    top: 122px;
 }
