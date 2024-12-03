@@ -613,6 +613,68 @@ What we offer CSS
     position: absolute;
 }
 
+/* ================mission start here============== */
+#mission{
+    margin-top: 140px;
+}
+.sidebyside{
+    display: flex;
+    justify-content: space-between;
+}
+.title h2{
+    text-align: left;
+    color: #071B27;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-bottom: 33px;
+}
+.mv{
+    width: 544px;
+    position: relative;
+    padding-left: 65px;
+    margin-top: 21px;
+    display: flex;
+    
+}
+.mv h4{
+    color: #071B27;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.26px;
+}
+.mv p{
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.16px;
+    margin-top: 12px;
+}
+.mv i{
+    width: 47px;
+    height: 47px;
+    background-color: #289BDE;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 47px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mv h4 i{
+    background-color: yellow;
+    color: #000;
+}
+
+/* ================mission end here============== */
+
 /* Our Testimonials section */
 #testimonials {
     margin-top: 140px;
