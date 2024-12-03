@@ -616,6 +616,69 @@ What we offer CSS
 /* Our Testimonials section */
 #testimonials {
     margin-top: 140px;
+}
+#testimonials .section-info {
+    max-width: 625px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+#testimonials .section-info h3 {
+    color: #289BDE;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#testimonials .section-info .section-title {
+    color: #071B27;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#testimonials .section-info .section-description {
+    font-size: 20px;
+    color: #666;
+}
+
+.testimonials-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 24px;
+}
+
+.testimonials-wrapper .item {
+    width: 378.5px;
+    height: 220px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 20px 25px 39px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: justify;
+}
+
+.testimonials-wrapper .personal-info .name {
+    color: #071B27;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.testimonials-wrapper .item .comment {
+    color: #666;
+    line-height: 27px;
+}
+
+.testimonials-wrapper .personal-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
 /* ===============
 Join Us CSS
 =============== */
@@ -678,65 +741,4 @@ Join Us CSS
 }
 #join_us .mockup_img img{
     width: 294px;
-}
-
-#testimonials .section-info {
-    max-width: 625px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 58px;
-}
-
-#testimonials .section-info h3 {
-    color: #289BDE;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-#testimonials .section-info .section-title {
-    color: #071B27;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-#testimonials .section-info .section-description {
-    font-size: 20px;
-    color: #666;
-}
-
-.testimonials-wrapper {
-    display: flex;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 24px;
-}
-
-.testimonials-wrapper .item {
-    width: 378.5px;
-    height: 220px;
-    border: 1px solid #666;
-    border-radius: 5px;
-    padding: 20px 25px 39px 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
-    text-align: justify;
-}
-
-.testimonials-wrapper .personal-info .name {
-    color: #071B27;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.testimonials-wrapper .item .comment {
-    color: #666;
-    line-height: 27px;
-}
-
-.testimonials-wrapper .personal-info {
-    display: flex;
-    align-items: center;
-    gap: 14px;
 }
